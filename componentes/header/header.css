@@ -1,0 +1,21 @@
+.headerPP{
+    border: 3px solid black;
+    height: 3rem;
+    width: 375px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1rem 1fr 2rem 1fr;
+    grid-template-rows: 1rem 1fr;
+}
+
+.equistt{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.diatext{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin-left: 5rem;
+}

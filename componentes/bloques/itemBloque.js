@@ -1,0 +1,5 @@
+function bloque(){
+
+}
+
+export {bloque}
